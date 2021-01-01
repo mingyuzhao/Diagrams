@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T22:03:23.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="fG5V_rO-2ZTy3rqsqzsP" version="14.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-01T16:49:52.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="J6dafDO3HqsUALCtKYd5" version="14.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="661" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Load 20 Quiz records &lt;br&gt;at selected grade&lt;br&gt;since current offset1&amp;nbsp;&amp;nbsp;&lt;br&gt;init offset1 = 0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Load n Quiz records &lt;br&gt;at selected grade&lt;br&gt;since current offset1&amp;nbsp;&amp;nbsp;&lt;br&gt;init offset1 = 0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="135" y="110" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
@@ -32,7 +32,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="FqrDWBqePk5-earfhPfw-10" edge="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="FqrDWBqePk5-earfhPfw-26" edge="1">
           <mxGeometry x="0.0769" y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="350" y="740" as="targetPoint" />
@@ -41,13 +41,13 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Found &lt;br&gt;enough questions &lt;br&gt;for the quiz?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="135" y="641" width="150" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="offset2 + 20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="offset2 += &lt;b&gt;n&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="810" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Load 20 questions&lt;br&gt;at selected grade&lt;br&gt;since current offset2&lt;br&gt;init offset2 = 0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Load &lt;b&gt;n&lt;/b&gt; questions&lt;br&gt;at selected grade&lt;br&gt;since current offset2&lt;br&gt;init offset2 = 0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="140" y="350" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FqrDWBqePk5-earfhPfw-0" value="offset1 + 20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FqrDWBqePk5-earfhPfw-0" value="offset1 += &lt;b&gt;n&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="180" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FqrDWBqePk5-earfhPfw-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FqrDWBqePk5-earfhPfw-0" target="WIyWlLk6GJQsqaUBKTNV-3">
@@ -97,9 +97,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FqrDWBqePk5-earfhPfw-10" value="Start Quiz" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="429" y="668.5" width="120" height="40" as="geometry" />
+          <mxGeometry x="550" y="668.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FqrDWBqePk5-earfhPfw-12" value="Found &lt;br&gt;enough questions &lt;br&gt;for the quiz?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FqrDWBqePk5-earfhPfw-12" value="Found &lt;br&gt;any questions &lt;br&gt;for the quiz?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="339" y="477.5" width="130" height="95" as="geometry" />
         </mxCell>
         <mxCell id="FqrDWBqePk5-earfhPfw-16" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -139,7 +139,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FqrDWBqePk5-earfhPfw-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FqrDWBqePk5-earfhPfw-12" target="FqrDWBqePk5-earfhPfw-10">
+        <mxCell id="FqrDWBqePk5-earfhPfw-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FqrDWBqePk5-earfhPfw-12" target="FqrDWBqePk5-earfhPfw-26">
           <mxGeometry x="0.04" y="-20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="294" y="698.5" as="sourcePoint" />
@@ -153,18 +153,32 @@
             <mxPoint x="404" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FqrDWBqePk5-earfhPfw-23" value="Add some questions answered correctly previously" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FqrDWBqePk5-earfhPfw-23" value="Archive all of unarchived quizzes records" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FqrDWBqePk5-earfhPfw-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FqrDWBqePk5-earfhPfw-23" target="FqrDWBqePk5-earfhPfw-10">
+        <mxCell id="FqrDWBqePk5-earfhPfw-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FqrDWBqePk5-earfhPfw-26" target="FqrDWBqePk5-earfhPfw-10">
           <mxGeometry x="0.546" y="25" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="159" y="840" as="sourcePoint" />
             <mxPoint x="150" y="395" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="640" y="400" />
-              <mxPoint x="640" y="520" />
-              <mxPoint x="519" y="520" />
+              <mxPoint x="610" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FqrDWBqePk5-earfhPfw-25" value="n = 30&lt;br&gt;m &amp;lt;= 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="32" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FqrDWBqePk5-earfhPfw-26" value="Select &lt;b&gt;m&lt;/b&gt; questions randomly" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FqrDWBqePk5-earfhPfw-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FqrDWBqePk5-earfhPfw-23" target="FqrDWBqePk5-earfhPfw-19">
+          <mxGeometry x="0.546" y="25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="680" y="698.5" as="sourcePoint" />
+            <mxPoint x="735" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="325" />
             </Array>
           </mxGeometry>
         </mxCell>
