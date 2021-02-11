@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-11T20:11:24.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="qwbW-SFkYd6R7P6zdF2d" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-11T20:15:38.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="WMkF48CnxPPNkG7AN6E8" version="14.3.0" type="github">
   <diagram id="AFjnaBT4QRfjI1uVDi57" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -134,8 +134,8 @@
         <mxCell id="JVIfDlZx7ks03SiBWHeD-31" value="1: Access requests" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="660" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JVIfDlZx7ks03SiBWHeD-33" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2: Check for user session&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="42" y="680" width="140" height="20" as="geometry" />
+        <mxCell id="JVIfDlZx7ks03SiBWHeD-33" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;2: Check if authorization is needed&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="680" width="178" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JVIfDlZx7ks03SiBWHeD-34" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;3:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Request&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Authorization Code&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="35" y="700" width="178" height="20" as="geometry" />
