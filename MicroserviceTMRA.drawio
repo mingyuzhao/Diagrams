@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-11T19:49:11.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="ihrrYcTcNEbbXSJ-_v2L" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-11T20:11:24.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="qwbW-SFkYd6R7P6zdF2d" version="14.3.0" type="github">
   <diagram id="AFjnaBT4QRfjI1uVDi57" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -295,8 +295,8 @@
         <mxCell id="JVIfDlZx7ks03SiBWHeD-64" value="6: Validate credentials" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="36" y="760" width="140.4" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JVIfDlZx7ks03SiBWHeD-65" value="Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="270" width="40" height="20" as="geometry" />
+        <mxCell id="JVIfDlZx7ks03SiBWHeD-65" value="Authorization Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JVIfDlZx7ks03SiBWHeD-66" value="" style="curved=1;endArrow=classic;html=1;exitX=0.411;exitY=0.024;exitDx=0;exitDy=0;entryX=0.25;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="JVIfDlZx7ks03SiBWHeD-5" target="JVIfDlZx7ks03SiBWHeD-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
